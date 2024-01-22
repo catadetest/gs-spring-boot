@@ -11,6 +11,6 @@ mvn spring-boot:run
 
 The `mvn -B -DskipTests clean package` command will clear the `target` directory if existed, builds the project and skip test during the build. Finally, the `mvn spring-boot:run` command will run the project on the default port.
 
-By default, your application will be served to port 8080. Navigate to `http://127.0.0.1:8080/rates` in order to review the JSON response..
+By default, your application will be served to port 8080. Navigate to `http://127.0.0.1:8080/rates` in order to review the JSON response.
 
 
